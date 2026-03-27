@@ -1,6 +1,15 @@
 [project]
 name = "primitivelanguage"
 version = "0.1.0"
-description = "Add your description here"
+description = "Lingua Primitiva - App apprendimento linguistico con SRS"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "flet",
+    "fsrs",
+    "requests",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
